@@ -1,6 +1,8 @@
 # Review: Exponents and Logarithms
 
-We generally consider $y=b^x$, where $b > 0$ and $x$ is arbitrary.
+## Exponential Function
+
+We generally consider $f(x)=b^x$, where $b > 0$ and $x$ is arbitrary.
 The domain is all of $\mathbb R$ and the range is $(0,\infty)$.
 
 ## Rules of Exponents
@@ -17,6 +19,12 @@ $a^{\frac{1}{n}} = \sqrt[n]{a}$
 
 $a^0 = 1$
 
+## Log functions
+
+$\log_b(x)$ is defined to be the inverse of $b^x$. 
+
+We say that $y = \log_b(x)$ whenever $b^y = x$.
+
 ## Rule of Logs
 
 $y = \log_b(x)$ is equivalent to $x = b^y$
@@ -28,3 +36,7 @@ $b^{\log_b x} = x$
 $\log_b(x y) = \log_b(x) + \log_b(y)$
 
 $\log_b(\frac x y) = \log_b(x) + \log_b(y)$
+
+$\log_b(b) = 1$
+
+$\log_b(1) = 0$
