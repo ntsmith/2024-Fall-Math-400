@@ -1,9 +1,4 @@
 # Review: Limits
-$\def\lim_{x\rightarrow a}{\lim_{x\rightarrow a}}$
-$\def\lim_{x\rightarrow a^+}{\lim_{x\rightarrow a^+}}$
-$\def\lim_{x\rightarrow a^-}{\lim_{x\rightarrow a^-}}$
-$\def\lxn{\lim_{x\rightarrow \infty}}$
-$\def\lxnn{\lim_{x\rightarrow -\infty}}$
 
 ## Definition: Limit
 Let f be a function defined on an interval that contains $x=a$, except possibly at $x=a$. Then we say that
@@ -13,7 +8,7 @@ means that for every $\epsilon > 0$, there exists $\delta > 0$ such that
 
 ## Rules of Limits
 
-Suppose that $c$ is a constant and that the limits $\lim_{x\rightarrow a} f(x)$ and $\lim_{x\rightarrow a} g(x)$ both exist. The the following are true
+Suppose that $c$ is a constant and that the limits $\displaystyle \lim_{x\rightarrow a} f(x)$ and $\displaystyle \lim_{x\rightarrow a} g(x)$ both exist. The the following are true
 $$ \begin{align}
   \lim_{x\rightarrow a} f(x) + g(x) &= \lim_{x\rightarrow a} f(x) + \lim_{x\rightarrow a} g(x) \\
   \lim_{x\rightarrow a} (f(x) - g(x)) &= \lim_{x\rightarrow a} f(x) - \lim_{x\rightarrow a} g(x) \\
@@ -54,58 +49,59 @@ For every $\epsilon > 0$, there exists $\delta > 0$ such that
 For every $\epsilon > 0$, there exists $\delta > 0$ such that
   $$\textnormal{if } a < x < a+\delta, \textnormal{ then } \left| f(x) - L\right| < \epsilon. $$
 
-### Definition: $\displaystyle \lim_{x\rightarrow a^-} f(x) = L$
+### Definition: $$\displaystyle \lim_{x\rightarrow a^-} f(x) = L$$
 For every $\epsilon > 0$, there exists $\delta > 0$ such that
   $$\textnormal{if } a - \delta< x < a, \textnormal{ then } \left| f(x) - L\right| < \epsilon. $$
 
 ## Limits: Vertical asymptotes
-### Definition: $\displaystyle \lim_{x\rightarrow a} f(x) = \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x \rightarrow a} f(x) = \infty$
+<!-- $\displaystyle \lim_{x\rightarrow a} f(x) = \infty$ -->
 For every $N$, there exists $\delta > 0$ such that
   $$\textnormal{if } 0 < x < |a+\delta|, \textnormal{ then } f(x) > N. $$
 
-### Definition: $\displaystyle \lim_{x\rightarrow a^+} f(x) = \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow a^+} f(x) = \infty$
 For every $N$, there exists $\delta > 0$ such that
   $$\textnormal{if } a < x < a+\delta, \textnormal{ then } f(x) > N. $$
 
-### Definition: $\displaystyle \lim_{x\rightarrow a^-} f(x) = \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow a^-} f(x) = \infty$
 For every $N$, there exists $\delta > 0$ such that
   $$\textnormal{if } a - \delta < x < a, \textnormal{ then } f(x) > N. $$
 
-### Definition: $\displaystyle \lim_{x\rightarrow a} f(x) = - \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow a} f(x) = - \infty$
 For every $N$, there exists $\delta > 0$ such that
   $$\textnormal{if } 0 < x < |a+\delta|, \textnormal{ then } f(x) < N. $$
 
-### Definition: $\displaystyle \lim_{x\rightarrow a^+} f(x) = -\infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow a^+} f(x) = -\infty$
 For every $N$, there exists $\delta > 0$ such that
   $$\textnormal{if } a < x < a+\delta, \textnormal{ then } f(x) <> N. $$
 
-### Definition: $\displaystyle \lim_{x\rightarrow a^-} f(x) = -\infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow a^-} f(x) = -\infty$
 For every $N$, there exists $\delta > 0$ such that
   $$\textnormal{if } a - \delta < x < a, \textnormal{ then } f(x) <> N. $$
 
 ## Limits: Horizontal Asymptotes
-### Definition: $\displaystyle \lxn f(x) = L$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow \infty} f(x) = L$
 For every $\epsilon > 0$, there exists $N$ such that
   $$\textnormal{if } x > N, \textnormal{ then } |f(x) - L| < \epsilon. $$
 
 
-### Definition: $\displaystyle \lxnn f(x) = L$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow -\infty} f(x) = L$
 For every $\epsilon > 0$, there exists $N$ such that
   $$\textnormal{if } x < N, \textnormal{ then } |f(x) - L| < \epsilon. $$
 
 ## Limits: Unbounded behavior
-### Definition: $\displaystyle \lxn f(x) = \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow\infty} f(x) = \infty$
 For every $M$, there exists $N$ such that
   $$\textnormal{if } x > N, \textnormal{ then } f(x) > M. $$
 
-### Definition: $\displaystyle \lxn f(x) = - \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow\infty} f(x) = - \infty$
 For every $M$, there exists $N$ such that
   $$\textnormal{if } x > N, \textnormal{ then } f(x) < M. $$
 
-### Definition: $\displaystyle \lxnn f(x) = \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow -\infty} f(x) = \infty$
 For every $M$, there exists $N$ such that
   $$\textnormal{if } x < N, \textnormal{ then } f(x) > M. $$
 
-### Definition: $\displaystyle \lxnn f(x) = - \infty$
+### Definition: $\hspace{1cm} \displaystyle \lim_{x\rightarrow -\infty} f(x) = - \infty$
 For every $M$, there exists $N$ such that
   $$\textnormal{if } x < N, \textnormal{ then } f(x) < M. $$
