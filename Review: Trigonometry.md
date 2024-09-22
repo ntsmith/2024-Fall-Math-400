@@ -2,21 +2,17 @@
 
 ## The Basics
 
-<table>
-  <tr>
-    <td>
 $\tan \theta = \frac{\sin \theta }{\cos \theta}$
-    </td>
-  </tr>
-</table>
 
 $\cot(\theta) = \frac{\cos \theta}{\sin \theta}$
 
-$\cot(\theta) = \frac{1}{\tan \theta}$
+$\cot(\theta) = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}$
 
 $\sec(\theta) = \frac{1}{\cos \theta|}$
 
 $\csc(\theta) = \frac{1}{\sin \theta|}$
+
+## Pythagorean Identities
 
 $\cos^2 \theta + \sin^2 \theta = 1$
 
@@ -24,7 +20,7 @@ $1 + \tan^2 \theta = \sec^2 \theta$
 
 $\cot^2 \theta + 1 = \csc^2 \theta$
 
-## Symmetries
+## Even/Odd
 
 $ \sin(-x) = - \sin x$
 

@@ -1,0 +1,19 @@
+{
+	"name": "Math 400 Devcontainer",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+	// "postStartCommand": "jupyter lab",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"starkwang.markdown",
+				"yzane.markdown-pdf",
+				"shd101wyy.markdown-preview-enhanced",
+				"yzhang.markdown-all-in-one"
+			]
+		}
+	}
+}
