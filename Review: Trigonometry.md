@@ -44,4 +44,14 @@ $\cos(x - y) = \cos x \cos y - \sin x \sin y$
 
 $\tan(x - y) = \frac{\tan x - \tan y}{1 + \tan x \tan y}$
 
-## 
+## Double Angle Formulas
+
+$\sin 2x = 2 \sin x \cos x$
+
+$\cos 2x = \cos^2 x + \sin^2 x$
+
+## Half Angle Formulas
+
+$\sin^2 x = \frac{1 - \cos 2x}{2}$
+
+$\cos^2 x = \frac{1 + \cos 2x}{2}$
