@@ -12,7 +12,8 @@
 				"starkwang.markdown",
 				"yzane.markdown-pdf",
 				"shd101wyy.markdown-preview-enhanced",
-				"yzhang.markdown-all-in-one"
+				"yzhang.markdown-all-in-one",
+				"DavidAnson.vscode-markdownlint"
 			]
 		}
 	}

@@ -6,9 +6,9 @@ $\tan \theta = \frac{\sin \theta }{\cos \theta}$
 
 $\cot(\theta) = \frac{1}{\tan \theta} = \frac{\cos \theta}{\sin \theta}$
 
-$\sec(\theta) = \frac{1}{\cos \theta|}$
+$\sec(\theta) = \frac{1}{\cos \theta}$
 
-$\csc(\theta) = \frac{1}{\sin \theta|}$
+$\csc(\theta) = \frac{1}{\sin \theta}$
 
 ## Pythagorean Identities
 
@@ -20,38 +20,40 @@ $\cot^2 \theta + 1 = \csc^2 \theta$
 
 ## Even/Odd
 
-$\sin(-x) = - \sin x$
+$\sin(-\theta) = - \sin \theta$
 
-$\cos(-x) = \cos x$
+$\cos(-\theta) = \cos \theta$
  
-$\tan(-x) = - \tan x$
+$\tan(-\theta) = - \tan \theta$
 
-$\sin(\pi - x) = \sin x$
+$\sin(\pi - \theta) = \sin \theta$
 
-$\cos(\pi -x) = - \cos x$
+$\cos(\pi -\theta) = - \cos \theta$
+
+$\tan(\pi - \theta) = - \tan(\theta)$
 
 ## Addition and Subtraction
 
-$\sin(x + y) = \sin x \cos y + \cos x \sin y$
+$\sin(\alpha + \beta) = \sin \alpha \cos \beta + \cos \alpha \sin \beta$
 
-$\cos(x + y) = \cos x \cos y + \sin x \sin y$
+$\cos(\alpha + \beta) = \cos \alpha \cos \beta + \sin \alpha \sin \beta$
 
-$\tan(x + y) = \frac{\tan x + \tan y}{1 - \tan x \tan y}$
+$\tan(\alpha + \beta) = \frac{\tan \alpha + \tan \beta}{1 - \tan \alpha \tan \beta}$
 
-$\sin(x - y) = \sin x \cos y - \cos x \sin y$
+$\sin(\alpha - \beta) = \sin \alpha \cos \beta - \cos \alpha \sin \beta$
 
-$\cos(x - y) = \cos x \cos y - \sin x \sin y$
+$\cos(\alpha - \beta) = \cos \alpha \cos \beta - \sin \alpha \sin \beta$
 
-$\tan(x - y) = \frac{\tan x - \tan y}{1 + \tan x \tan y}$
+$\tan(\alpha - \beta) = \frac{\tan \alpha - \tan \beta}{1 + \tan \alpha \tan \beta}$
 
 ## Double Angle Formulas
 
-$\sin 2x = 2 \sin x \cos x$
+$\sin 2\theta = 2 \sin \theta \cos \theta$
 
-$\cos 2x = \cos^2 x + \sin^2 x$
+$\cos 2\theta = \cos^2 \theta + \sin^2 \theta$
 
 ## Half Angle Formulas
 
-$\sin^2 x = \frac{1 - \cos 2x}{2}$
+$\sin^2 \theta = \frac{1 - \cos 2\theta}{2}$
 
-$\cos^2 x = \frac{1 + \cos 2x}{2}$
+$\cos^2 \theta = \frac{1 + \cos 2\theta}{2}$
