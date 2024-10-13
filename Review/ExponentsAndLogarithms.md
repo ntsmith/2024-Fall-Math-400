@@ -21,13 +21,11 @@ $a^0 = 1$
 
 ## Log functions
 
-$\log_b(x)$ is defined to be the inverse of $b^x$. 
+$\log_b(x)$ is defined to be the inverse of $b^x$
 
-We say that $y = \log_b(x)$ whenever $b^y = x$.
+$y = \log_b(x)$ means that $x = b^y$
 
 ## Rule of Logs
-
-$y = \log_b(x)$ is equivalent to $x = b^y$
 
 $\log_b(b^x) = x$
 
