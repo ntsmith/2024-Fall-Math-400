@@ -13,7 +13,9 @@
 				"yzane.markdown-pdf",
 				"shd101wyy.markdown-preview-enhanced",
 				"yzhang.markdown-all-in-one",
-				"DavidAnson.vscode-markdownlint"
+				"DavidAnson.vscode-markdownlint",
+				"ms-azuretools.vscode-docker",
+				"tomoki1207.pdf"
 			]
 		}
 	}

@@ -20,12 +20,12 @@ $$\frac{d}{dx}(x) = 1 $$
 
 ### Proof:
 
-$$\begin{align*}
+<!-- $$\begin{align*}
   \frac{d}{dx}(x) & = \lim_{h \rightarrow 0} \frac{(x+h) - (x)}{h} \\
       & = \lim_{h \rightarrow 0} \frac{h}{h} \\
       & = \lim_{h \rightarrow 0} 1 \\
       & = 1
-\end{align*}$$
+\end{align*}$$ -->
 
 ## Theorem: Derivative of $x^2$
 
